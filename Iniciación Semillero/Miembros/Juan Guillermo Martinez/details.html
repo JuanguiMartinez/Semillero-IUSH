@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>
+		
+	</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="custom.css">
+</head>
+<body>
+	<div class="head-img">
+		<img class="head-img__image" src="2.jpg" title="Encabezado" alt="Encabezado">
+		<div class="head-img__title">Bottom Left</div>
+	</div>
+	<!--<div class="row h-100 details">
+		<div class="col-5 my-auto">
+			<p class="details__description"> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+				tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+				quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+				consequat.
+			</p>
+			<button class="btn btn-danger details__button">PRESENTAR EXÁMEN</button>
+		</div>
+		<div class="col-7">
+			<div class="media details__media">
+				<iframe src="" width="332" height="187"></iframe>
+			</div>
+			<span class="col-12 text-center"><img src="http://192.168.56.101/tus-cuentas/wp-content/uploads/2018/10/icon.png" title="file" alt="file" width="40" height="40">Contabilidad Financiera</span>
+		</div>	
+	</div>-->
+	
+</body>
+</html>
+
+<!--<?php
+/**
+ * Created by PhpStorm.
+ * User: Erika Romero
+ * Date: 19/09/2018
+ * Time: 2:59 PM
+ */
+
+class YapCourseDetailView
+{
+    public static function render($course, $assessment)
+    {
+        ob_start();
+        ?>
+        <div class="row h-100 details">
+            <div class="col-6 my-auto">
+                <p class="details__text details__text--description"><?= htmlspecialchars_decode($course->content) ?></p>
+                <a class="btn btn-danger details__button" href="<?= $assessment ? YAP_PLUGIN_SITE_URL . "/evaluacion/" . $assessment->slug : "" ?>">PRESENTAR EXÁMEN</a>
+            </div>
+            <div class="col-6">
+                <div class="details__media">
+                    <iframe src="" frameborder="0"></iframe>
+                </div>
+                <span class="col-12 mx-auto details__text details__text--file">
+                    <a href=""><img src="http://192.168.56.101/tus-cuentas/wp-content/uploads/2018/10/icon.png" title="File" alt="File" width="40" height="40"/>
+                    <?= $course->name ?></a>
+                </span>
+            </div>
+        </div>
+
+        <?php
+        echo ob_get_clean();
+    }
+}-->
