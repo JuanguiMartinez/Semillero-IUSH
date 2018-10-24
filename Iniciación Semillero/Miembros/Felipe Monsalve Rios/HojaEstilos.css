@@ -1,0 +1,38 @@
+header{
+	background-color: #5e2129;
+	margin: 15px;
+}
+
+footer{
+	background-color: #775254; 
+	margin-right:20px; 
+	margin-left:20px;
+}
+
+body{
+	background-color:  #f5f5dc;
+}
+#Imagen{
+	padding-left: 15px;
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+#Date{
+	padding-left: 15px;
+}
+#Title{
+	padding-left: 210px;
+}
+#imagenrusos{
+	padding-left: 245px;
+}
+#espacios{
+	padding-right: 25px;
+}
+#foottext{
+	padding-left: 25px;
+}
+#botons{
+	margin-bottom: 24px;
+	margin-left: 10px;
+}
