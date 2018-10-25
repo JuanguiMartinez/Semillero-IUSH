@@ -1,0 +1,20 @@
+footer{
+    background-color: snow;
+    margin-right: 20px;
+    margin-left: 20px;
+}
+body{
+    background-color: slategrey;
+}
+header{
+    background-color: snow;
+ margin-left: 20px;
+ margin-right: 20px;
+ margin: 20px;
+}
+p{
+    padding-left: 400px;
+}
+h1{
+   padding-left: 400px;
+}
