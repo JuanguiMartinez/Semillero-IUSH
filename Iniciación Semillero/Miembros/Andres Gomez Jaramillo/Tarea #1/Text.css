@@ -1,16 +1,17 @@
-.textbox{
-    
+body{
+    margin: 10px;
+    background-color: #E2E2DA
 }
 
-#news-tittle{
+.news-tittle{
     font-size:25px;
     color:black;
 }
-#Center{
+.Center-picture{
     margin: 10px auto;
     display:block;
 }
-#text{
+.drawer{
     background-color:#B7E1E9;
     border: 2px solid black;
     border-radius: 95px;
@@ -19,29 +20,59 @@
     width: 1200px;
 }
 
-#paragraph{
+.paragraph{
     background-color: white;
     border: 3px solid black;
-    padding: 20px;
     text-align:center;
     margin: 20px auto;
     width: 1000px;
 }
 
-#box{
+.box{
     background-color:#B7E1E9;
     border: 2px solid black;
     border-radius: 95px;
-    text-align:center;
     padding: 16px 40px;
     margin: 20px ;
-    width: 100px;
+    text-decoration: none;
+    font-family: Arial;
+    color: black;
 }
 
-#foot{
+.foot{
     background-color:#B7E1E9;
     border: 2px solid black;
-    padding: 10px 10px 10px 420px;
+    padding: 20px;
     margin: 20px 320px;
+    display: flex;
+    justify-content: space-between;
 }
 
+.menu-main{
+    background-color:#7BAACD;
+    border: 2px solid #000000;
+    padding: 10px;
+    margin: 15px;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 115px;
+}
+
+.menu-main a{
+    flex: 0.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-main a:hover{
+    background: rgba(0,0,0, .1);
+}
+
+.links{
+    text-decoration: none;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
